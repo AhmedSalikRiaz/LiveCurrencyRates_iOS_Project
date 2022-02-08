@@ -10,7 +10,7 @@ export default function Todo({ item, toggleTask }) {
   <div>
       
       <label>
-          <input type="checkbox" checked={item.complete} onChange={handleTaskClick} />
+          <input className='m-2' type="checkbox" checked={item.complete} onChange={handleTaskClick} />
           {item.name}
       </label>
 
